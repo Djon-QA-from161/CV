@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <header class="section">
+        <img src="images/logo.png" alt="Wanderlust Adventures" class="logo">
+        <h1>Wanderlust Adventures</h1>
+        <p>Открой для себя мир вместе с нами</p>
+    </header>
+
+    <section class="about section">
+        <img src="1.jpg" alt="Guide photo" class="profile">
+        <h2>About me</h2>
+        <p>
+            I'm starting a company so that people can see the world with fresh eyes and curiosity.
+            I've been guiding for a long time, and I'm ready to show you some sights you won't forget.
+        </p>
+        
+        <div class="music-player">
+            <h3><span class="music-note">🎵</span> Atmosphere of Adventure</h3>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="music.mp3" type="audio/mpeg">
+                    Ваш браузер не поддерживает аудио элементы.
+                </audio>
+            </div>
+            <p class="music-subtitle">Музыка для вдохновения путешествий</p>
+        </div>
+
+        <a href="#book" class="btn">Book a Tour</a>
+    </section>
+
+    <section id="book" class="booking section">
+        <h2>Book Your Adventure</h2>
+        <form action="https://formsubmit.co/evgenijcarev42129@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Tour Booking Request!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Tell me what kind of trip you dream about..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="section">
+        <p>Follow me:</p>
+        <div class="social">
+            <a href="https://t.me/Djon_elected" target="_blank">Telegram</a>
+            <a href="https://www.instagram.com/djon_djaman/" target="_blank">Instagram</a>
+        </div>
+        <p class="copy">© 2025 Wanderlust Adventures</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #333; /* Темный текст для контраста с белым фоном */
+    text-align: center;
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Единый стиль для всех блоков */
+.section {
+    background: rgba(255, 255, 255, 0.4); /* Белый фон с легкой прозрачностью */
+    margin: 30px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(135, 206, 235, 0.3); /* Нежный голубой контур */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+    max-width: 800px;
+}
+
+/* Header */
+header {
+    padding: 80px 30px 60px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 25px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #1e90ff; /* Голубой оттенок, гармонирующий с небом */
+}
+
+header p {
+    font-size: 1.3em;
+    opacity: 0.9;
+    font-weight: 500;
+    color: #555; /* Темно-серый для читаемости */
+}
+
+/* About section */
+.about h2 {
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #1e90ff; /* Голубой заголовок */
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.1em;
+    opacity: 0.9;
+    font-weight: 400;
+    color: #555; /* Темно-серый текст */
+}
+
+/* Фото профиля */
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 3px solid rgba(135, 206, 235, 0.3); /* Голубая рамка */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* Музыкальный плеер */
+.music-player {
+    margin: 35px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95); /* Белый фон плеера */
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(135, 206, 235, 0.3); /* Голубая обводка */
+    max-width: 450px;
+}
+
+.music-player h3 {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #1e90ff; /* Голубой заголовок */
+}
+
+.audio-player {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.audio-player audio {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.music-subtitle {
+    opacity: 0.8;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555; /* Темно-серый текст */
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 16px 40px;
+    background: #1e90ff; /* Голубая кнопка */
+    color: #fff; /* Белый текст на кнопке */
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 1.1em;
+    box-shadow: 0 6px 20px rgba(30, 144, 255, 0.3);
+}
+
+.btn:hover {
+    background: #104e8b; /* Темно-голубой при наведении */
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(30, 144, 255, 0.4);
+}
+
+/* Форма */
+.booking h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #1e90ff; /* Голубой заголовок */
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 16px;
+    border: 2px solid rgba(135, 206, 235, 0.3); /* Голубая обводка */
+    border-radius: 10px;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.9); /* Белый фон полей */
+    color: #333;
+    font-weight: 500;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(85, 85, 85, 0.7); /* Серый placeholder */
+}
+
+textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+button {
+    background: #1e90ff; /* Голубая кнопка */
+    color: #fff; /* Белый текст */
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px rgba(30, 144, 255, 0.3);
+}
+
+button:hover {
+    background: #104e8b; /* Темно-голубой при наведении */
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(30, 144, 255, 0.4);
+}
+
+/* Footer */
+footer {
+    padding: 40px 30px;
+}
+
+footer p {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555; /* Темно-серый текст */
+}
+
+.social {
+    margin: 25px 0;
+}
+
+.social a {
+    color: #1e90ff; /* Голубые ссылки */
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(135, 206, 235, 0.3); /* Голубая обводка */
+}
+
+.social a:hover {
+    background: #e6f0fa; /* Светло-голубой фон при наведении */
+    transform: translateY(-2px);
+}
+
+.copy {
+    margin-top: 30px;
+    opacity: 0.7;
+    font-size: 0.9em;
+    color: #555; /* Темно-серый текст */
+}
+
+/* Анимации */
+.music-note {
+    font-size: 26px;
+    margin-right: 12px;
+    animation: float 3s ease-in-out infinite;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .section {
+        margin: 15px;
+        padding: 30px 15px;
+    }
+    
+    header h1 {
+        font-size: 2.2em;
+    }
+    
+    .profile {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .social a {
+        margin: 0 10px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
